@@ -16,6 +16,14 @@
 			"type": "widget"
 		},
 		{
+			"id": "Widget/checkbox",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/label",
+			"type": "widget"
+		},
+		{
 			"id": "default",
 			"type": "theme"
 		},
