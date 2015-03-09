@@ -11,13 +11,13 @@
 		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
 		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 
-		<meta data-type="dataSource" data-lib="WAF" data-source="Person" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="person" content="person"/></head>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Person" data-lib="WAF" data-id="person" data-dataType="string" data-autoLoad="true" content="person"/></head>
 	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
-			<div id="dataGrid1" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-left="true" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID','type':'long'},{'sourceAttID':'name','colID':'name','width':'150','title':'name','type':'string'},{'sourceAttID':'age','colID':'age','width':'90','title':'age','type':'number'}]" class="waf-widget waf-dataGrid" data-binding="person"></div>
+			<div id="dataGrid1" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-left="true" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID','type':'long'},{'sourceAttID':'name','colID':'name','width':'150','title':'name','type':'string'},{'sourceAttID':'age','colID':'age','width':'90','title':'age','type':'number'}]" data-binding="person" class="waf-widget waf-dataGrid"></div>
 		<button id="button2" data-type="button" data-text="ADD" data-target="_blank" data-lib="WAF" data-action="simple" class="waf-widget waf-button"></button>
 		<button id="button3" data-type="button" data-text="Delete" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" data-action="simple" class="waf-widget waf-button"></button>
-			<div id="checkbox2" data-type="checkbox" data-lib="WAF" type="checkbox" class="waf-widget waf-checkbox" data-label="Label" data-label-position="right"></div>
-		<label id="label2" data-type="label" data-lib="WAF" for="checkbox2" data-valign="middle" data-margin="5" class="waf-widget waf-label waf-label-checkbox" data-constraint-left="true" data-constraint-top="true">accept?</label>
+			<div type="checkbox" id="checkbox2" data-type="checkbox" data-lib="WAF" data-label-position="right" data-label="accept?" class="waf-widget waf-checkbox" data-constraint-left="true" data-constraint-top="true"></div>
+		<label id="label2" for="checkbox2" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label waf-label-checkbox">accept?</label>
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
 	</body>
 </html>

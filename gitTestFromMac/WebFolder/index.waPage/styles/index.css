@@ -3,21 +3,19 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#label2 {
-	z-index: 9;
-	width: 40px;
-	height: 14px;
-	top: 233px;
-	left: 569px;
+#checkbox2 {
+	width: 16px;
+	height: 16px;
+	top: 203px;
+	left: 516px;
 	position: absolute;
 }
 
-#checkbox2 {
-	z-index: 9;
-	width: 16px;
-	height: 16px;
-	top: 232px;
-	left: 548px;
+#label2 {
+	width: 40px;
+	height: 14px;
+	top: 204px;
+	left: 537px;
 	position: absolute;
 }
 
