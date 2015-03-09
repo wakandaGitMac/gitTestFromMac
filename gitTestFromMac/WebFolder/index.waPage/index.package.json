@@ -24,6 +24,10 @@
 			"type": "widget"
 		},
 		{
+			"id": "Widget/slider",
+			"type": "widget"
+		},
+		{
 			"id": "default",
 			"type": "theme"
 		},
